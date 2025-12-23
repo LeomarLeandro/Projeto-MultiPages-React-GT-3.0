@@ -25,5 +25,66 @@ Este projeto foi criado para:
 - Organização profissional de pastas
 - Tema escuro (Dark Mode)
 
-## 🗂️ Estrutura de Pastas
+## 📌 Observações
 
+Este projeto faz parte do meu processo de aprendizado em React e foi desenvolvido com foco em boas práticas, organização de código e conceitos fundamentais utilizados em aplicações reais.
+
+## 🗂️ Estrutura de Pastas
+```bash
+src/
+├── components/
+│ ├── Header.jsx
+│ ├── Footer.jsx
+│ └── Layout.jsx
+│
+├── pages/
+│ ├── Home.jsx
+│ ├── About.jsx
+│ ├── Contact.jsx
+│ ├── User.jsx
+│ └── NotFound.jsx
+│
+├── routes/
+│ └── AppRoutes.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+````
+
+## 🧭 Rotas da Aplicação
+
+| Rota           | Descrição                     |
+|----------------|-------------------------------|
+| `/`            | Página inicial (Home)         |
+| `/about`       | Página About                  |
+| `/contact`     | Página Contact                |
+| `/user/:id`    | Página dinâmica de usuário    |
+| `*`            | Página 404 (Not Found)        |
+
+## 🎨 Interface
+
+- Tema escuro (Dark Mode)
+- Header com navegação destacando a rota ativa
+- Layout consistente em todas as páginas
+- Footer fixo e discreto
+
+## ⚙️ Tecnologias Utilizadas
+
+- React
+- Vite
+- React Router DOM
+- JavaScript (ES6+)
+- CSS
+
+## ▶️ Como Rodar o Projeto
+
+1️⃣Clone o repositório: git clone https://github.com/LeomarLeandro/Projeto-MultiPages-React-GT-3.0
+
+2️⃣Acesse a pasta do projeto: cd seu-repositorio
+
+3️⃣Instale as dependências: npm install
+
+4️⃣Execute o projeto: npm run dev
+
+5️⃣Abra no navegador: http://localhost:5173
